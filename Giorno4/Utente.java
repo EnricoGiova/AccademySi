@@ -17,7 +17,9 @@ public class Utente {
 	private int id;
 		
 	
-	
+	//l'utente si deve prima inserire, non esiste la creazione
+	//di admin di partenza ma un utente potrà diventare un admin
+	//questa funzione sarà implementata solamente all'admin
 	
 	Utente(String password){
 		nomeUtente=id;

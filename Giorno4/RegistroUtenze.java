@@ -27,5 +27,13 @@ public class RegistroUtenze {
 			}
 			
 	}
+
+		public ArrayList<Utente> getUtentiNormali() {
+			return utentiNormali;
+		}
+
+		public ArrayList<Utente> getUtentiAdmin() {
+			return utentiAdmin;
+		}
 	
 }
